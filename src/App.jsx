@@ -4,12 +4,12 @@ import viteLogo from '/vite.svg'
 import './App.css';
 // import { validationValue } from './functions/validationValue/validateValue';
 // const mapArrToString = require('./functions/mapArrToString/mapArrToString.js');\
-import mapArrToString from './functions/mapArrToString/mapArrToString';
+// import mapArrToString from './functions/mapArrToString/mapArrToString';
 
 function App() {
 	const [count, setCount] = useState(0);
 	// console.log("VALIDATIONVALUE", validationValue(99));
-	console.log(mapArrToString([1, 2, 3]));
+	console.log(Number.isInteger(2));
 
 	return (
 		<>
